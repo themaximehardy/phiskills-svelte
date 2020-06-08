@@ -1,6 +1,11 @@
 <script>
     import { getContext } from 'svelte'
     const data = getContext('data')
+
+    const fetchFeed = (async () => {
+		const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https:%2F%2Fmedium.com%2Ffeed%2Fphi-skills')
+        return await response.json()
+	})()
 </script>
 
 <section class="pt-8 px-4 pb-4">
