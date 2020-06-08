@@ -5,9 +5,9 @@
 </script>
 
 
-<section class="py-12 px-4"><h2
-        class="text-4xl mb-2 text-center leading-tight font-heading">
-    Services</h2>
+<section class="py-12 px-4">
+    <Title
+        title="services"/>
     <p class="text-center mb-12 text-gray-500">Let’s open a new chapter of your
         paper adventure!</p>
     <div>

@@ -5,9 +5,7 @@
 </script>
 
 <section class="py-16 px-4">
-    <div class="text-center"><span class="text-indigo-600">TAGLINE</span>
-        <h2 class="text-3xl text-center mb-12 font-heading">Our Values</h2>
-    </div>
+    <Title title="our values"/>
     <div class="flex flex-wrap max-w-5xl -mx-4 -mb-8 md:mx-auto">
         <div class="w-full px-4 mb-8 md:w-1/2">
             <div class="h-full p-6 bg-white rounded border-t-4 border-indigo-500 shadow-md">

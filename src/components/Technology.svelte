@@ -5,7 +5,7 @@
 </script>
 
 <section class="py-12 px-4 text-center">
-    <h2 class="text-4xl mb-2 leading-tight font-heading">Technologies</h2>
+    <Title title="technologies"/>
     <p class="max-w-xl mx-auto mb-12 text-gray-500">Because no great company
         could exist without accountants, sellers, stock workers, and of course -
         paper.</p>

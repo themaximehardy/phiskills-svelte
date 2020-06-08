@@ -4,8 +4,8 @@
     const data = getContext("data")
 </script>
 
-<section class="py-12 px-4"><h2 class="text-3xl mb-8 text-center font-heading">
-    Contact</h2>
+<section class="py-12 px-4">
+    <Title title="contact"/>
     <div class="flex flex-wrap items-center -mx-6">
         <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0"><img
                 src="placeholders/pictures/new_ideas.svg" alt=""></div>

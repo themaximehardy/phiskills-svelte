@@ -5,8 +5,7 @@
 </script>
 
 <section class="py-8 px-4">
-    <h2 class="text-3xl text-center leading-tight mb-8 font-heading">Our
-        Work In Action</h2>
+    <Title title="work in action" />
     <div class="flex flex-wrap -mx-4">
         <div class="w-full lg:w-1/3 px-4 mb-8">
             <div class="flex flex-col h-full p-8 pb-6 rounded shadow-md">

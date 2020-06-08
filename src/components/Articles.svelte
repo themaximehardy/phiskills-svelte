@@ -1,6 +1,7 @@
 <script>
     import {getContext} from "svelte"
 
+
     const data = getContext("data")
 
     const fetchFeed = (async () => {
@@ -10,7 +11,7 @@
 </script>
 
 <section class="pt-8 px-4 pb-4">
-    <h2 class="text-3xl mb-8 font-heading">Latest posts</h2>
+    <Title title="latest posts"/>
     <div class="flex flex-wrap -mx-4">
         <div class="w-full lg:w-1/4 px-4 mb-8">
             <div class="relative h-full pb-6 rounded shadow-md"><a

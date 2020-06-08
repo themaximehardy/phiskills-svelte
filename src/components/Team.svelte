@@ -5,7 +5,7 @@
 </script>
 
 <section class="pt-8 px-4 pb-4">
-    <h2 class="text-4xl mb-2 leading-tight font-heading">Team</h2>
+    <Title title="team"/>
     <p class="max-w-xl mb-8 text-gray-500">Because no great company could exist
         without accountants, sellers, stock workers, and of course - paper.</p>
     <div class="flex flex-wrap -mx-4 text-center">
