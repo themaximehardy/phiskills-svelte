@@ -1,6 +1,7 @@
 <script>
     import {getContext} from "svelte"
 
+    import Title from "./shared/Title.svelte"
 
     const data = getContext("data")
 
