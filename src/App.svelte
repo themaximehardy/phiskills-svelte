@@ -1,6 +1,6 @@
 <script>
     import { setContext } from 'svelte'
-    import Nav from "./Nav.svelte"
+    import Nav from "./components/Nav.svelte"
 
     export let data = {}
     setContext('data', data)
