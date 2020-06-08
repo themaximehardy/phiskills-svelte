@@ -1,3 +1,17 @@
 general:
   name: Phi Skills
-  
+nav:
+    - name: Services
+      slug: Services
+    - name: Projects
+      slug: projects
+    - name: Articles
+      slug: Articles
+    - name: Technololgy
+      slug: technology
+    - name: Values
+      slug: values
+    - name: Team
+      slug: team
+    - name: Contact
+      slug: contact
