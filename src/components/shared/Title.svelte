@@ -3,7 +3,7 @@
 
     const data = getContext("data")
 
-    let title
+    export let title
 </script>
 <!--TODO: think if necessary to have an optional tagline in title-->
 <!--<span class="text-sm font-semibold">TAGLINE</span>-->
