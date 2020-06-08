@@ -1,6 +1,7 @@
 <script>
-    import { getContext } from 'svelte'
-    const data = getContext('data')
+    import {getContext} from "svelte"
+
+    const data = getContext("data")
 </script>
 
 <section class="py-12 px-4 text-center">
@@ -12,7 +13,7 @@
             that is scalable, secure and flexible.</p>
         <div>
             <a class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow"
-                href="#">Contact Us</a><a
+               href="#">Contact Us</a><a
                 class="text-blue-700 hover:underline" href="#">Learn
             more</a></div>
     </div>

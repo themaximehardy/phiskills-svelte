@@ -11,6 +11,7 @@
     import Services from "./components/Services.svelte"
     import Contact from "./components/Contact.svelte"
     import Footer from "./components/Footer.svelte"
+    import Features from "./components/Features.svelte"
 
     export let data = {}
     setContext("data", data)
@@ -20,6 +21,7 @@
     <div class="container mx-auto px-4">
         <Nav/>
         <Banner/>
+        <Features/>
         <Services/>
         <Projects/>
         <Articles/>
