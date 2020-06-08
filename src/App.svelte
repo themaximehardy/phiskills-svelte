@@ -1,6 +1,10 @@
 <script>
     import { setContext } from 'svelte'
-    import Nav from "./Nav.svelte"
+    import Nav from "./components/Nav.svelte"
+    import Articles from "./components/Articles.svelte"
+    import Technology from "./components/Technology.svelte"
+    import Values from "./components/Values.svelte"
+    import Team from "./components/Team.svelte"
 
     export let data = {}
     setContext('data', data)
@@ -86,161 +90,10 @@
           </div>
         </div>
       </section>
-      <section class="pt-8 px-4 pb-4">
-        <h2 class="text-3xl mb-8 font-heading">Latest posts</h2>
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/office.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-3 font-heading">Understanding the paper</h3>
-                  <p class="text-gray-500">So you think you know everything about paper? False, you know nothing. Let me illuminate your first steps into my world.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-2/4 px-4 mb-8">
-            <div class="hidden lg:block relative rounded shadow-md bg-cover h-full" style="background-image: url('placeholders/pictures/work.jpg')"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span>
-                <div class="p-6 flex items-end h-full text-white">
-                  <div>
-                    <h3 class="text-2xl mb-2 font-heading">Being world’s best boss</h3>
-                    <p>The wise man once said: "Friend first, boss second, entertainer third". That man was me.</p>
-                  </div>
-                </div></a></div>
-            <div class="lg:hidden relative rounded shadow-md pb-6 h-full"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/work.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-3 font-heading">Being world’s best boss</h3>
-                  <p class="text-gray-500">The wise man once said: "Friend first, boss second, entertainer third". That man was me.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/office.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-2 font-heading">Dwight doesn’t understand the paper</h3>
-                  <p class="text-gray-500">Read it and finally find out that Dwight Schrute is merely a scammer.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/work.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-2 font-heading">Why motorcycles are the best cars ever</h3>
-                  <p class="text-gray-500">A few of my thoughts about cars, car accidents and life in the Dunder Mifflin Scranton office.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/office.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-3 font-heading">Life & biznness</h3>
-                  <p class="text-gray-500">Struggling to make ends meet? Selling guns and paper is the best solution.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/work.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-3 font-heading">Why I shouldn’t have shown Creed how to set up a blog</h3>
-                  <p class="text-gray-500">He hides horrific things in his mind.</p>
-                </div></a></div>
-          </div>
-          <div class="w-full lg:w-1/4 px-4 mb-8">
-            <div class="relative h-full pb-6 rounded shadow-md"><a href="#"><span class="absolute text-sm py-1 px-3 m-2 text-white font-semibold bg-indigo-500 rounded-full">label</span><img class="mb-4" src="placeholders/pictures/office.jpg" alt="">
-                <div class="px-4">
-                  <h3 class="text-xl mb-3 font-heading">Office meeting on the beach</h3>
-                  <p class="text-gray-500">The history of how I ate 55 hot dogs and one fish in 15 minutes and beat world record. Also, our receptionist was saying some stuff.</p>
-                </div></a></div>
-          </div>
-        </div>
-      </section>
-      <section class="py-12 px-4 text-center">
-        <h2 class="text-4xl mb-2 leading-tight font-heading">Technologies</h2>
-        <p class="max-w-xl mx-auto mb-12 text-gray-500">Because no great company could exist without accountants, sellers, stock workers, and of course - paper.</p>
-        <div class="flex flex-wrap -mx-4">
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/male_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">JavaScript</h3><span>Regional Manager</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/female_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Python</h3><span>Regional Manager</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/male_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Golang</h3><span>Assistant to the Regional Manager</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/male_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Swift</h3><span>Salesman</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/female_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Scala</h3><span>Salesman</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/male_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Rust</h3><span>HR Manager</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/male_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">PostgreSQL</h3><span>Marketing Director</span>
-          </div>
-          <div class="p-4 w-1/2 lg:w-1/4"><img class="mx-auto mb-4 rounded-full w-1/3" src="placeholders/pictures/female_avatar.svg" alt="">
-            <h3 class="text-xl font-heading font-semibold">Neo4j</h3><span>Customer Service</span>
-          </div>
-        </div>
-      </section>
-      <section class="py-16 px-4">
-        <div class="text-center"><span class="text-indigo-600">TAGLINE</span>
-          <h2 class="text-3xl text-center mb-12 font-heading">Our Values</h2>
-        </div>
-        <div class="flex flex-wrap max-w-5xl -mx-4 -mb-8 md:mx-auto">
-          <div class="w-full px-4 mb-8 md:w-1/2">
-            <div class="h-full p-6 bg-white rounded border-t-4 border-indigo-500 shadow-md">
-              <h3 class="text-2xl mb-3">Transparency </h3>
-              <p>Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying.</p>
-            </div>
-          </div>
-          <div class="w-full px-4 mb-8 md:w-1/2">
-            <div class="h-full p-6 bg-white rounded border-t-4 border-indigo-500 shadow-md">
-              <h3 class="text-2xl mb-3">Empowerment </h3>
-              <p>Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.</p>
-            </div>
-          </div>
-          <div class="w-full px-4 mb-8 md:w-1/2">
-            <div class="h-full p-6 bg-white rounded border-t-4 border-indigo-500 shadow-md">
-              <h3 class="text-2xl mb-3">Agility</h3>
-              <p>The best combination of quality and economy comes with our paper. The offer includes wides ranges of density.</p>
-            </div>
-          </div>
-          <div class="w-full px-4 mb-8 md:w-1/2">
-            <div class="h-full p-6 bg-white rounded border-t-4 border-indigo-500 shadow-md">
-              <h3 class="text-2xl mb-3">XXX</h3>
-              <p>The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="pt-8 px-4 pb-4">
-        <h2 class="text-4xl mb-2 leading-tight font-heading">Team</h2>
-        <p class="max-w-xl mb-8 text-gray-500">Because no great company could exist without accountants, sellers, stock workers, and of course - paper.</p>
-        <div class="flex flex-wrap -mx-4 text-center">
-          <div class="w-full lg:w-1/3 px-4 mb-8">
-            <div class="h-full pb-6 rounded shadow-md"><img class="mx-auto mb-4" src="placeholders/pictures/female_avatar.svg" alt="">
-              <div class="px-8">
-                <h3 class="text-xl font-heading font-semibold">Maxime Hardy</h3><span>Regional Manager at Utica branch</span>
-                <div class="flex justify-center py-3 my-4 mx-12 border-t border-b"><img class="w-8 h-8 mx-3" src="placeholders/icons/message.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/share.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/star.svg" alt=""></div>
-                <p>Started as a Sales representative at Stamford branch, moved to Scranton.</p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/3 px-4 mb-8">
-            <div class="h-full pb-6 rounded shadow-md"><img class="mx-auto mb-4" src="placeholders/pictures/male_avatar.svg" alt="">
-              <div class="px-8">
-                <h3 class="text-xl font-heading font-semibold">Victor Nitu</h3><span>Marketing Director</span>
-                <div class="flex justify-center py-3 my-4 mx-12 border-t border-b"><img class="w-8 h-8 mx-3" src="placeholders/icons/message.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/share.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/star.svg" alt=""></div>
-                <p>I started there as an Assistant and finally got a promotion to the Marketing Director.</p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full lg:w-1/3 px-4 mb-8">
-            <div class="h-full pb-6 rounded shadow-md"><img class="mx-auto mb-4" src="placeholders/pictures/female_avatar.svg" alt="">
-              <div class="px-8">
-                <h3 class="text-xl font-heading font-semibold">Michele Rexha</h3><span>ML Engineer</span>
-                <div class="flex justify-center py-3 my-4 mx-12 border-t border-b"><img class="w-8 h-8 mx-3" src="placeholders/icons/message.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/share.svg" alt=""><img class="w-8 h-8 mx-3" src="placeholders/icons/star.svg" alt=""></div>
-                <p>I work for Dunder Mifflin for a few years now. I learned a lot.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Articles />
+      <Technology />
+      <Values />
+      <Team />
       <section class="py-12 px-4">
         <h2 class="text-3xl mb-8 text-center font-heading">Contact</h2>
         <div class="flex flex-wrap items-center -mx-6">
