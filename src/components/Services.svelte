@@ -17,7 +17,7 @@
                                                  src="placeholders/pictures/sprint.svg"
                                                  alt=""></div>
             <div class="md:w-1/2 px-8 mb-8">
-                <span class="text-6xl">Consult</span>
+                <span class="text-5xl">Consult</span>
                 <h3 class="text-2xl mb-3 font-heading">Evaluate</h3>
                 <p class="text-gray-500 leading-relaxed">During the phone call
                     we will be able to present you all details of cooperation,
@@ -28,7 +28,7 @@
             <div class="md:w-1/2 px-8 mb-8 md:order-1"><img class="w-4/5
             mx-auto" src="placeholders/pictures/blocks.svg" alt=""></div>
             <div class="md:w-1/2 px-8 md:text-right">
-                <span class="text-6xl">Build</span>
+                <span class="text-5xl">Build</span>
                 <h3 class="text-2xl mb-3 font-heading">Software</h3>
                 <p class="text-gray-500 leading-relaxed">We can also talk during
                     business meeting, or visit your office anytime you want! Our
@@ -40,7 +40,7 @@
             mx-auto" src="placeholders/pictures/data_processing.svg"
                                                             alt=""></div>
             <div class="md:w-1/2 px-8">
-                <span class="text-6xl">Collect</span>
+                <span class="text-5xl">Collect</span>
                 <h3 class="text-2xl mb-3 font-heading">Data</h3>
                 <p class="text-gray-500 leading-relaxed">You don’t buy a pig...
                     or shall I say a paper in a poke. The supplies will be
@@ -53,7 +53,7 @@
                 <img class="w-4/5 mx-auto"
                      src="placeholders/pictures/ai_robot.svg" alt=""></div>
             <div class="md:w-1/2 px-8 md:text-right">
-                <span class="text-6xl">Automate</span>
+                <span class="text-5xl">Automate</span>
                 <h3 class="text-2xl mb-3 font-heading">Process</h3>
                 <p class="text-gray-500 leading-relaxed">You don’t buy a pig...
                     or shall I say a paper in a poke. The supplies will be
