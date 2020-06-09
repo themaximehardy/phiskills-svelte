@@ -90,3 +90,18 @@ projects:
           link: null
 # -- end -- PROJECT
 # ----------
+# -- start -- VALUES
+values:
+    title: Our Values
+    subtitle: –
+    content:
+        - title: Transparency
+          text: Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying.
+        - title: Empowerment
+          text: Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.
+        - title: Agility
+          text: The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying.
+        - title: Science
+          text: The best combination of quality and economy comes with our paper. The offer includes wides ranges of density.
+# -- end -- VALUES
+# ----------
