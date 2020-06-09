@@ -7,9 +7,7 @@
 </script>
 
 <section class="pt-8 px-4 pb-4">
-    <Title title="team"/>
-    <p class="max-w-xl mb-8 text-gray-500">Because no great company could exist
-        without accountants, sellers, stock workers, and of course - paper.</p>
+    <Title title="team" subtitle="dadsadasdasdasdasdasdasd"/>
     <div class="flex flex-wrap -mx-4 text-center">
         <div class="w-full lg:w-1/3 px-4 mb-8">
             <div class="h-full pb-6 rounded shadow-md"><img class="mx-auto mb-4"
