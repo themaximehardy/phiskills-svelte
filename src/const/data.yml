@@ -29,3 +29,46 @@ banner:
         - name: Learn more
           link: service
 # -- end -- BANNER
+# -- start -- SERVICES
+services:
+    title: Services
+    subtitle: Let’s open a new chapter of your paper adventure!
+    content:
+        - image: placeholders/pictures/sprint.svg
+          title: Consult
+          subtitle: Evaluate
+          text: During the phone call we will be able to present you all details of cooperation, pricing and special offers, suited for your company.
+        - image: placeholders/pictures/blocks.svg
+          title: Build
+          subtitle: Software
+          text: We can also talk during business meeting, or visit your office anytime you want! Our employees will provide proper contracts.
+        - image: placeholders/pictures/data_processing.svg
+          title: Collect
+          subtitle: Data
+          text: You don’t buy a pig... or shall I say a paper in a poke. The supplies will be delivered to your company every first Monday of the month.
+        - image: placeholders/pictures/ai_robot.svg
+          title: Automate
+          subtitle: Process
+          text: You don’t buy a pig... or shall I say a paper in a poke. The supplies will be delivered to your company every first Monday of the month.
+# -- end -- SERVICES
+# -- start -- PROJECTS
+projects:
+    title: Work In Action
+    subtitle: –
+    content:
+        - logo: placeholders/logos/realweb.svg
+          image: placeholders/pictures/office.jpg
+          text: Michael, the Manager? I swear, that man can really close deals with people. Such a nice contact, great quality products, professional service. And God knows, that company is fun at parties.
+          name: The Good Apparel
+          link: null
+        - logo: placeholders/logos/plucky.svg
+          image: placeholders/pictures/office.jpg
+          text: Michael, the Manager? I swear, that man can really close deals with people. Such a nice contact, great quality products, professional service. And God knows, that company is fun at parties.
+          name: Event Driven Data Engineering Platform
+          link: null
+        - logo: placeholders/logos/gitscape.svg
+          image: placeholders/pictures/office.jpg
+          text: Michael, the Manager? I swear, that man can really close deals with people. Such a nice contact, great quality products, professional service. And God knows, that company is fun at parties.
+          name: 3D Process Automation
+          link: null
+# -- end -- PROJECT
