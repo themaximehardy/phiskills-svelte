@@ -10,8 +10,9 @@
     const response = await fetch(
       "https://api.rss2json.com/v1/api.json?rss_url=https:%2F%2Fmedium.com%2Ffeed%2Fphi-skills"
     );
-    const json = await response.json();
-    return json;
+    const json = await response.json()
+    console.log('json: ', json)
+    return json
   })();
 </script>
 
@@ -51,7 +52,7 @@
                 >
                   {getDate(item.pubDate)}
                 </span>
-                <img class="mb-4" src="{item.thumbnail}" alt="" />
+                <img class="mb-4 object-cover w-full h-48" src="{item.thumbnail}" alt="" />
                 <div class="px-4">
                   <h3 class="text-xl mb-3 font-heading">{item.title}</h3>
                   <p class="text-gray-500">{item.categories.join(' • ')}</p>
@@ -69,7 +70,7 @@
                 >
                   {getDate(item.pubDate)}
                 </span>
-                <img class="mb-4" src="{item.thumbnail}" alt="" />
+                <img class="mb-4 object-cover w-full h-48" src="{item.thumbnail}" alt="" />
                 <div class="px-4">
                   <h3 class="text-xl mb-3 font-heading">{item.title}</h3>
                   <p class="text-gray-500">{item.categories.join(' • ')}</p>

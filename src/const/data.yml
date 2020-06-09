@@ -23,10 +23,9 @@ banner:
     tagline: TAGLINE
     title: End to end software development for endless growth
     subtitle: We craft software that is scalable, secure and flexible.
-    ctaLeft:
-        name: Contact us
-        link: contact
-    ctaRight:
-        name: Learn more
-        link: service
+    actions:
+        - name: Contact us
+          link: contact
+        - name: Learn more
+          link: service
 # -- end -- BANNER

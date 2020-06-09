@@ -1,7 +1,9 @@
 <script>
-  import { getContext } from "svelte";
+  import { getContext } from "svelte"
 
-  const data = getContext("data");
+  const data = getContext("data")
+
+  const { actions } = data.banner
 </script>
 
 <section class="py-12 px-4 text-center">
@@ -12,19 +14,16 @@
     </h2>
     <p class="mb-8 text-gray-500 leading-relaxed">{data.banner.subtitle}</p>
     <div>
-      <a
-        class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500
-        hover:bg-indigo-600 rounded shadow"
-        href="{data.banner.ctaLeft.link}"
-      >
-        {data.banner.ctaLeft.name}
-      </a>
-      <a
-        class="text-blue-700 hover:underline"
-        href="{data.banner.ctaRight.link}"
-      >
-        {data.banner.ctaRight.name}
-      </a>
+          <a
+            class="inline-block py-4 px-8 mr-6 leading-none text-white
+            bg-indigo-500 hover:bg-indigo-600 rounded shadow"
+            href="{actions[0].link}"
+          >
+            {actions[0].name}
+          </a>
+          <a class="text-blue-700 hover:underline" href="{actions[1].link}">
+            {actions[1].name}
+          </a>
     </div>
   </div>
 </section>
