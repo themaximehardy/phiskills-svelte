@@ -2,64 +2,30 @@
     import {getContext} from "svelte"
 
     import Title from "./shared/Title.svelte"
+
     const data = getContext("data")
+
+    const {services} = data
 </script>
 
 
 <section class="py-12 px-4">
-    <Title
-        title="services"/>
-    <p class="text-center mb-12 text-gray-500">Let’s open a new chapter of your
-        paper adventure!</p>
+    <Title title={services.title}/>
+    <p class="text-center mb-12 text-gray-500">{services.subtitle}</p>
     <div>
-        <div class="flex flex-wrap items-center -mx-8">
-            <div class="md:w-1/2 px-8 mb-8"><img class="w-4/5 mx-auto"
-                                                 src="placeholders/pictures/sprint.svg"
-                                                 alt=""></div>
-            <div class="md:w-1/2 px-8 mb-8">
-                <span class="text-5xl">Consult</span>
-                <h3 class="text-2xl mb-3 font-heading">Evaluate</h3>
-                <p class="text-gray-500 leading-relaxed">During the phone call
-                    we will be able to present you all details of cooperation,
-                    pricing and special offers, suited for your company.</p>
+        {#each services.content as service, index}
+            <div class="flex flex-wrap items-center -mx-8">
+                <div class="md:w-1/2 px-8 mb-8 {index % 2 === 0 ?
+                `md:order-1` : `order-none`} ">
+                    <img class="w-4/5 mx-auto" src={service.image} alt="">
+                </div>
+                <div class="md:w-1/2 px-8 mb-8 {index % 2 === 0 ?
+                `md:text-right` : ``}">
+                    <span class="text-5xl">{service.title}</span>
+                    <h3 class="text-2xl mb-3 font-heading">{service.subtitle}</h3>
+                    <p class="text-gray-500 leading-relaxed">{service.text}</p>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-wrap items-center -mx-8">
-            <div class="md:w-1/2 px-8 mb-8 md:order-1"><img class="w-4/5
-            mx-auto" src="placeholders/pictures/blocks.svg" alt=""></div>
-            <div class="md:w-1/2 px-8 md:text-right">
-                <span class="text-5xl">Build</span>
-                <h3 class="text-2xl mb-3 font-heading">Software</h3>
-                <p class="text-gray-500 leading-relaxed">We can also talk during
-                    business meeting, or visit your office anytime you want! Our
-                    employees will provide proper contracts.</p>
-            </div>
-        </div>
-        <div class="flex flex-wrap items-center -mx-8">
-            <div class="md:w-1/2 px-8 mb-8 order-none"><img class="w-4/5
-            mx-auto" src="placeholders/pictures/data_processing.svg"
-                                                            alt=""></div>
-            <div class="md:w-1/2 px-8">
-                <span class="text-5xl">Collect</span>
-                <h3 class="text-2xl mb-3 font-heading">Data</h3>
-                <p class="text-gray-500 leading-relaxed">You don’t buy a pig...
-                    or shall I say a paper in a poke. The supplies will be
-                    delivered to your company every first Monday of the
-                    month.</p>
-            </div>
-        </div>
-        <div class="flex flex-wrap items-center -mx-8">
-            <div class="md:w-1/2 px-8 mb-8 order-1">
-                <img class="w-4/5 mx-auto"
-                     src="placeholders/pictures/ai_robot.svg" alt=""></div>
-            <div class="md:w-1/2 px-8 md:text-right">
-                <span class="text-5xl">Automate</span>
-                <h3 class="text-2xl mb-3 font-heading">Process</h3>
-                <p class="text-gray-500 leading-relaxed">You don’t buy a pig...
-                    or shall I say a paper in a poke. The supplies will be
-                    delivered to your company every first Monday of the
-                    month.</p>
-            </div>
-        </div>
+        {/each}
     </div>
 </section>
