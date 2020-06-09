@@ -9,7 +9,7 @@
 </script>
 
 <section class="pt-8 px-4 pb-4">
-    <Title title="team" subtitle="dadsadasdasdasdasdasdasd"/>
+    <Title title={team.title} subtitle={team.subtitle}/>
     <div class="flex flex-wrap -mx-4 text-center">
         {#each team.content as person}
             <div class="w-full lg:w-1/3 px-4 mb-8">
