@@ -19,13 +19,21 @@
                         <h3 class="text-xl font-heading font-semibold">{person.fullname}
                         </h3><span>{person.role}</span>
                         <div class="flex justify-center py-3 my-4 mx-12 border-t border-b">
-                            {#each person.social as social}
-                                <img class="w-8 h-8 mx-3"
-                                     src={social} alt="">
-                            {/each}
+                            <img
+                                    class="w-8 h-8 mx-3"
+                                    src="placeholders/icons/message.svg"
+                                    alt="">
+                            <img
+                                    class="w-8 h-8 mx-3"
+                                    src="placeholders/icons/share.svg"
+                                    alt="">
+                            <img
+                                    class="w-8 h-8 mx-3"
+                                    src="placeholders/icons/star.svg"
+                                    alt="">
                         </div>
-                    <p>{person.description}</p>
-                </div>
+                        <p>{person.description}</p>
+                    </div>
                 </div>
             </div>
         {/each}
