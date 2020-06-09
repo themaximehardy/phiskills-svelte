@@ -136,15 +136,9 @@
         "role": "Software Engineer",
         "description": "Started as a Sales representative at Stamford branch, moved to Scranton.",
         "social": [
-          {
-            "github": "https://github.com/themaximehardy/"
-          },
-          {
-            "linkedin": "https://www.linkedin.com/in/maximehardy/"
-          },
-          {
-            "website": "https://maximehardy.io/"
-          }
+          "https://github.com/themaximehardy/",
+          "https://www.linkedin.com/in/maximehardy/",
+          "https://maximehardy.io/"
         ]
       },
       {
@@ -153,15 +147,9 @@
         "role": "Data Engineer",
         "description": "I started there as an Assistant and finally got a promotion to the Marketing Director.",
         "social": [
-          {
-            "github": "https://github.com/victornitu"
-          },
-          {
-            "linkedin": "https://www.linkedin.com/in/victornitu/"
-          },
-          {
-            "website": "https://victornitu.com/"
-          }
+          "https://github.com/victornitu",
+          "https://www.linkedin.com/in/victornitu/",
+          "https://victornitu.com/"
         ]
       },
       {
@@ -170,15 +158,9 @@
         "role": "ML Engineer",
         "description": "I work for Dunder Mifflin for a few years now. I learned a lot.",
         "social": [
-          {
-            "github": "https://github.com/MicrexIT"
-          },
-          {
-            "linkedin": "https://www.linkedin.com/in/michele-rexha-4b1985aa"
-          },
-          {
-            "website": "https://michelerexha.com/"
-          }
+          "https://github.com/MicrexIT",
+          "https://www.linkedin.com/in/michele-rexha-4b1985aa",
+          "https://michelerexha.com/"
         ]
       }
     ]
