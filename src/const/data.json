@@ -47,6 +47,28 @@
       }
     ]
   },
+  "features": {
+    "title": "–",
+    "subtitle": "–",
+    "content": [
+      {
+        "title": "Great quality",
+        "text": "Our paper is literally tempting you to print something."
+      },
+      {
+        "title": "Fast delivery",
+        "text": "Business in need? We can prepare next-day delivery if necessary."
+      },
+      {
+        "title": "Attractive discounts",
+        "text": "Every customer gets 10% discount on the other paper supplies."
+      },
+      {
+        "title": "Help at any time",
+        "text": "Our consultants are ready to serve at any hour."
+      }
+    ]
+  },
   "services": {
     "title": "Services",
     "subtitle": "Let’s open a new chapter of your paper adventure!",
