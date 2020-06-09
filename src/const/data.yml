@@ -29,6 +29,7 @@ banner:
         - name: Learn more
           link: service
 # -- end -- BANNER
+# ----------
 # -- start -- SERVICES
 services:
     title: Services
@@ -51,6 +52,7 @@ services:
           subtitle: Process
           text: You don’t buy a pig... or shall I say a paper in a poke. The supplies will be delivered to your company every first Monday of the month.
 # -- end -- SERVICES
+# ----------
 # -- start -- PROJECTS
 projects:
     title: Work In Action
@@ -72,3 +74,4 @@ projects:
           name: 3D Process Automation
           link: null
 # -- end -- PROJECT
+# ----------
