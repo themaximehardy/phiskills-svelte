@@ -5,17 +5,7 @@
 
     const data = getContext("data")
 
-    const projects = {
-        title: "random title",
-        content: [{
-            logo: "placeholders/logos/realweb.svg",
-            image: "placeholders/pictures/office.jpg",
-            text: "blablabla",
-            name: "dada",
-            link: "#"
-        }]
-    }
-
+    const {projects} = data
 </script>
 
 <section class="py-8 px-4">
