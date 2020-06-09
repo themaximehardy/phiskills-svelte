@@ -1,12 +1,13 @@
 general:
   name: Phi Skills
+# -- start -- NAV
 nav:
     - name: Services
-      slug: Services
+      slug: services
     - name: Projects
       slug: projects
     - name: Articles
-      slug: Articles
+      slug: articles
     - name: Technololgy
       slug: technology
     - name: Values
@@ -15,3 +16,17 @@ nav:
       slug: team
     - name: Contact
       slug: contact
+# -- end -- NAV
+# ----------
+# -- start -- BANNER
+banner:
+    tagline: TAGLINE
+    title: End to end software development for endless growth
+    subtitle: We craft software that is scalable, secure and flexible.
+    ctaLeft:
+        name: Contact us
+        link: contact
+    ctaRight:
+        name: Learn more
+        link: service
+# -- end -- BANNER

@@ -5,7 +5,7 @@
   "nav": [
     {
       "name": "Services",
-      "slug": "Services"
+      "slug": "services"
     },
     {
       "name": "Projects",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Articles",
-      "slug": "Articles"
+      "slug": "articles"
     },
     {
       "name": "Technololgy",
@@ -31,5 +31,18 @@
       "name": "Contact",
       "slug": "contact"
     }
-  ]
+  ],
+  "banner": {
+    "tagline": "TAGLINE",
+    "title": "End to end software development for endless growth",
+    "subtitle": "We craft software that is scalable, secure and flexible.",
+    "ctaLeft": {
+      "name": "Contact us",
+      "link": "contact"
+    },
+    "ctaRight": {
+      "name": "Learn more",
+      "link": "service"
+    }
+  }
 }
