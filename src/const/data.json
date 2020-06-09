@@ -126,6 +126,63 @@
       }
     ]
   },
+  "team": {
+    "title": "Team",
+    "subtitle": "Let’s open a new chapter of your paper adventure!",
+    "content": [
+      {
+        "image": "placeholders/pictures/male_avatar.svg",
+        "fullname": "Maxime Hardy",
+        "role": "Software Engineer",
+        "description": "Started as a Sales representative at Stamford branch, moved to Scranton.",
+        "social": [
+          {
+            "github": "https://github.com/themaximehardy/"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/maximehardy/"
+          },
+          {
+            "website": "https://maximehardy.io/"
+          }
+        ]
+      },
+      {
+        "image": "placeholders/pictures/male_avatar.svg",
+        "fullname": "Victor Nitu",
+        "role": "Data Engineer",
+        "description": "I started there as an Assistant and finally got a promotion to the Marketing Director.",
+        "social": [
+          {
+            "github": "https://github.com/victornitu"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/victornitu/"
+          },
+          {
+            "website": "https://victornitu.com/"
+          }
+        ]
+      },
+      {
+        "image": "placeholders/pictures/male_avatar.svg",
+        "fullname": "Michele Rexha",
+        "role": "ML Engineer",
+        "description": "I work for Dunder Mifflin for a few years now. I learned a lot.",
+        "social": [
+          {
+            "github": "https://github.com/MicrexIT"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/michele-rexha-4b1985aa"
+          },
+          {
+            "website": "https://michelerexha.com/"
+          }
+        ]
+      }
+    ]
+  },
   "values": {
     "title": "Our Values",
     "subtitle": "–",
