@@ -4,6 +4,6 @@
     let visible = true
 </script>
 
-<section class={className} transition:fade>
+<section class={className} in:fade>
     <slot></slot>
 </section>
