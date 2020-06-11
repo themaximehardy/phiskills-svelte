@@ -150,6 +150,11 @@ contact:
     title: Contact
     subtitle: –
     image: placeholders/pictures/new_ideas.svg
+    options:
+      - Consult
+      - Build
+      - Data
+      - Automate
 # -- end -- CONTACT
 # ----------
 # ----------

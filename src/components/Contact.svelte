@@ -1,59 +1,59 @@
 <script>
-  import { getContext } from "svelte";
-  import Title from "./shared/Title.svelte";
+    import {getContext} from "svelte"
+    import Title from "./shared/Title.svelte"
 
-  const data = getContext("data");
+    const data = getContext("data")
 
-  const { contact } = data;
+    const {contact} = data
 </script>
 
 <section class="py-12 px-4">
-  <Title title="{contact.title}" />
-  <div class="flex flex-wrap items-center -mx-6">
-    <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0">
-      <img src="{contact.image}" alt="" />
-    </div>
-    <div class="w-full lg:w-1/2 px-6">
-      <form>
-        <div class="mb-4">
-          <input
-            class="appearance-none block w-full py-3 px-4 leading-tight
+    <Title title="{contact.title}"/>
+    <div class="flex flex-wrap items-center -mx-6">
+        <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0">
+            <img src="{contact.image}" alt=""/>
+        </div>
+        <div class="w-full lg:w-1/2 px-6">
+            <form>
+                <div class="mb-4">
+                    <input
+                            class="appearance-none block w-full py-3 px-4 leading-tight
             text-gray-700 bg-gray-200 focus:bg-white border border-gray-200
             focus:border-gray-500 rounded focus:outline-none"
-            type="email"
-            placeholder="Email"
-          />
-        </div>
-        <div class="mb-4">
-          <select
-            class="appearance-none block w-full py-3 px-4 leading-tight
+                            type="email"
+                            placeholder="Email"
+                    />
+                </div>
+                <div class="mb-4">
+                    <select
+                            class="appearance-none block w-full py-3 px-4 leading-tight
             text-gray-700 bg-gray-200 focus:bg-white border border-gray-200
             focus:border-gray-500 rounded focus:outline-none"
-          >
-            <option>-- Select product --</option>
-            <option>Product 1</option>
-            <option>Product 2</option>
-            <option>Product 3</option>
-          </select>
-        </div>
-        <div class="mb-4">
+                    >
+                        <option>-- Select product --</option>
+                        {#each contact.options as opt}
+                            <option>{opt}</option>
+                        {/each}
+                    </select>
+                </div>
+                <div class="mb-4">
           <textarea
-            class="appearance-none block w-full py-3 px-4 leading-tight
+                  class="appearance-none block w-full py-3 px-4 leading-tight
             text-gray-700 bg-gray-200 focus:bg-white border border-gray-200
             focus:border-gray-500 rounded focus:outline-none"
-            placeholder="Write something..."
-            rows="5"
+                  placeholder="Write something..."
+                  rows="5"
           ></textarea>
-        </div>
-        <div>
-          <button
-            class="inline-block w-full py-4 px-8 leading-none text-white
+                </div>
+                <div>
+                    <button
+                            class="inline-block w-full py-4 px-8 leading-none text-white
             bg-indigo-500 hover:bg-indigo-600 rounded shadow"
-          >
-            Submit
-          </button>
+                    >
+                        Submit
+                    </button>
+                </div>
+            </form>
         </div>
-      </form>
     </div>
-  </div>
 </section>
