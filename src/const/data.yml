@@ -1,19 +1,28 @@
 general:
   name: Phi Skills
+  social:
+    github: https://github.com/phiskills
+    medium: https://medium.com/phi-skills
+    linkedin: https://www.linkedin.com/company/phiskills
+    email: hello@phiskills.com
 # -- start -- NAV
-nav:
+navLinks:
     - name: Services
       slug: services
+      inFooter: true
     - name: Projects
       slug: projects
+      inFooter: true
     - name: Articles
       slug: articles
+      inFooter: true
     - name: Technololgy
       slug: technology
     - name: Values
       slug: values
     - name: Team
       slug: team
+      inFooter: true
     - name: Contact
       slug: contact
 # -- end -- NAV
@@ -90,6 +99,21 @@ projects:
           link: null
 # -- end -- PROJECT
 # ----------
+# -- start -- VALUES
+values:
+    title: Our Values
+    subtitle: –
+    content:
+        - title: Transparency
+          text: Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying.
+        - title: Empowerment
+          text: Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.
+        - title: Agility
+          text: The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying.
+        - title: Science
+          text: The best combination of quality and economy comes with our paper. The offer includes wides ranges of density.
+# -- end -- VALUES
+# ----------
 # -- start -- TEAM
 team:
     title: Team
@@ -121,18 +145,17 @@ team:
             - https://michelerexha.com/
 # -- end -- TEAM
 # ----------
-# -- start -- VALUES
-values:
-    title: Our Values
+# -- start -- CONTACT
+contact:
+    title: Contact
     subtitle: –
-    content:
-        - title: Transparency
-          text: Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying.
-        - title: Empowerment
-          text: Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.
-        - title: Agility
-          text: The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying.
-        - title: Science
-          text: The best combination of quality and economy comes with our paper. The offer includes wides ranges of density.
-# -- end -- VALUES
+    image: placeholders/pictures/new_ideas.svg
+# -- end -- CONTACT
+# ----------
+# ----------
+# -- start -- FOOTER
+footer:
+    privacyLink: /privacy-link
+    termOfService: /tos-link
+# -- end -- FOOTER
 # ----------

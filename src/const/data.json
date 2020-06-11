@@ -1,19 +1,28 @@
 {
   "general": {
-    "name": "Phi Skills"
+    "name": "Phi Skills",
+    "social": {
+      "github": "https://github.com/phiskills",
+      "medium": "https://medium.com/phi-skills",
+      "linkedin": "https://www.linkedin.com/company/phiskills",
+      "email": "hello@phiskills.com"
+    }
   },
-  "nav": [
+  "navLinks": [
     {
       "name": "Services",
-      "slug": "services"
+      "slug": "services",
+      "inFooter": true
     },
     {
       "name": "Projects",
-      "slug": "projects"
+      "slug": "projects",
+      "inFooter": true
     },
     {
       "name": "Articles",
-      "slug": "articles"
+      "slug": "articles",
+      "inFooter": true
     },
     {
       "name": "Technololgy",
@@ -25,7 +34,8 @@
     },
     {
       "name": "Team",
-      "slug": "team"
+      "slug": "team",
+      "inFooter": true
     },
     {
       "name": "Contact",
@@ -126,6 +136,28 @@
       }
     ]
   },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "–",
+    "content": [
+      {
+        "title": "Transparency",
+        "text": "Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying."
+      },
+      {
+        "title": "Empowerment",
+        "text": "Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years."
+      },
+      {
+        "title": "Agility",
+        "text": "The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying."
+      },
+      {
+        "title": "Science",
+        "text": "The best combination of quality and economy comes with our paper. The offer includes wides ranges of density."
+      }
+    ]
+  },
   "team": {
     "title": "Team",
     "subtitle": "Let’s open a new chapter of your paper adventure!",
@@ -165,26 +197,13 @@
       }
     ]
   },
-  "values": {
-    "title": "Our Values",
+  "contact": {
+    "title": "Contact",
     "subtitle": "–",
-    "content": [
-      {
-        "title": "Transparency",
-        "text": "Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying."
-      },
-      {
-        "title": "Empowerment",
-        "text": "Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years."
-      },
-      {
-        "title": "Agility",
-        "text": "The offer includes paper in wide range of density and sizes. Ideal for high-quality printing and photocopying."
-      },
-      {
-        "title": "Science",
-        "text": "The best combination of quality and economy comes with our paper. The offer includes wides ranges of density."
-      }
-    ]
+    "image": "placeholders/pictures/new_ideas.svg"
+  },
+  "footer": {
+    "privacyLink": "/privacy-link",
+    "termOfService": "/tos-link"
   }
 }

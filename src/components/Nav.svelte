@@ -2,11 +2,12 @@
     import {getContext} from "svelte"
 
     const data = getContext("data")
+    const {navLinks} = data
 </script>
 
 <nav class="flex flex-wrap items-center justify-between p-4">
   <div class="flex flex-shrink-0 mr-6">
-    <a class="text-xl text-indigo-500 font-semibold" href="#">
+    <a class="text-xl text-indigo-500 font-semibold" href="/">
       {data.general.name}
     </a>
   </div>
@@ -30,13 +31,13 @@
     lg:w-auto"
   >
     <div class="lg:ml-auto">
-      {#each data.nav as curNav}
+      {#each navLinks as link}
         <a
           class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0
           hover:text-blue-700"
-          href="#{curNav.slug}"
+          href="#{link.slug}"
         >
-          {curNav.name}
+          {link.name}
         </a>
       {/each}
     </div>
