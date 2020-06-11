@@ -99,6 +99,36 @@ projects:
           link: null
 # -- end -- PROJECT
 # ----------
+# -- start -- TECHNOLOGY
+technology:
+    title: technologies
+    subtitle: –
+    information: Because no great company could exist without accountants, sellers, stock workers, and of course paper.
+    content:
+        - logo: placeholders/pictures/male_avatar.svg
+          name: javascript
+        - logo: placeholders/pictures/male_avatar.svg
+          name: python
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+        - logo: placeholders/pictures/male_avatar.svg
+          name: go
+# -- end -- TECHNOLOGY
+# ----------
 # -- start -- VALUES
 values:
     title: Our Values
