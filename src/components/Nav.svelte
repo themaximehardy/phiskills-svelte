@@ -33,8 +33,8 @@
     <div class="lg:ml-auto">
       {#each navLinks as link}
         <a
-          class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0
-          hover:text-blue-700"
+          class="block mt-4 mr-10 text-gray-100 lg:inline-block lg:mt-0
+          hover:text-gray-400"
           href="#{link.slug}"
         >
           {link.name}
